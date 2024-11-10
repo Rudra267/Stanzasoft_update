@@ -1148,7 +1148,7 @@ color: #000;
 
 @media (max-width:1000px){
   .career_header > h1 {
-    font-size: 4.5vw;
+    font-size: 1.5em;
   }
   .target_head, .currentOpenings h1 {
     
