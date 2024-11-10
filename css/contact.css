@@ -317,7 +317,7 @@ body {
       padding-top: 0px;
       padding-right: 20px;
       padding-bottom: 60px;
-      padding-left: 0px;
+      padding-left: 21px;
     }
   
     .contact_us_green .line {
@@ -366,7 +366,7 @@ body {
     }
   }
   
-  @media (max-width: 500px) {
+  @media (max-width: 650px) {
     .contact_us_green .responsive-container-block.big-container {
       padding-top: 0px;
       padding-right: 20px;
@@ -682,4 +682,9 @@ body {
   font-family: extra;
   transform: translate(-50%, -50%);
   
+}
+@media (max-width:500px){
+  .location_container > h1{
+    font-size: 20px;
+  }
 }

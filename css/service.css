@@ -843,3 +843,361 @@ color: #000;
 .CLM_cards > h2 > span{
   color: var(--highlightSubtext);
 }
+
+/* careerpage */
+.career_container{
+  padding-top: 100px;
+}
+
+.career_header{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.bgimage-container{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #fff;
+}
+.bgimage-container > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(0.5);
+}
+.career_header > h1{
+  text-align: center;
+  width: 80%;
+  z-index: 2;
+  font-size: 3vw;
+  text-transform: capitalize;
+}
+
+/* swipping_card */
+
+.card_swipping{
+  padding-top: 24px;
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+}
+
+.target_head{
+  width: 600px;
+  margin: 0;
+  color: #000;
+  font-size: 4.5vw;
+  font-family: GilL;
+  font-weight: 100;
+  padding-left: 100px;
+  padding-bottom: 100px;
+
+}
+.career_container > p{
+  line-height: 25px;
+}
+.card_swipping .swiper {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+
+.card_swipping .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_swipping .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.carrer_Journy{
+  width: 100%;
+  /* height: 100vh; */
+  background-color: #fff;
+}
+
+.crousel_content{
+  display: flex;
+}
+
+.crousel_content .card{
+
+  /* background-color: #9875E4; */
+  padding: 10px 10px;
+  border-top: 2px solid #565656d5;
+}
+
+.crousel_content .card , .crousel_content > .card > .innercard_content{
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.crousel_content .card h1, .crousel_content .card h4{
+margin: 0 !important;
+color: #000;
+
+}
+
+.crousel_content .card h1{
+  background: var(--brandColour);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  font-family: GilL;
+  font-size: 7.5vw;
+  font-weight: 100;
+}
+
+.crousel_content .card h4{
+ font-family: GilB;
+ font-size: 1.2em;
+}
+
+.crousel_content .card h4{
+  padding: 20px 0;
+}
+
+.crousel_content .card > .innercard_content >  p{
+  color: #000;
+  font-family: extra;
+  text-align: left;
+}
+
+.crousel_content{
+  gap: 20px !important;
+  /* background-color: red; */
+}
+
+/* currentOpenings */
+
+.currentOpenings {
+  background-color: #fff;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.currentOpenings h1 {
+   margin: 0;
+    font-size: 3.5em;
+    font-family: GilL;
+    font-weight: 100;
+    color: #000;
+    font-family: GilL;
+    padding: 100px 0;
+    /* text-align: left; */
+    /* background: var(--brandColour);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important; */
+}
+
+.currentOpenings img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+
+.currentOpenings .cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  /* padding: 20px; */
+}
+
+.currentOpenings .cards_item {
+  display: flex;
+  padding: 1rem;
+  height: 100%;
+}
+
+@media (min-width: 40rem) {
+  .currentOpenings  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .currentOpenings  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.currentOpenings .card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.currentOpenings .card_content {
+  padding: 2rem;
+  /* background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%); */
+  background: #ffffff;
+}
+
+.currentOpenings .card_content .card_title {
+  color: #000000;
+  font-size: 2rem;
+  font-weight: 700;
+  /* line-height: 25px; */
+  text-transform: capitalize;
+  margin: 0px;
+}
+.currentOpenings .card_content > .location > i{
+  color: #000;
+  margin-right: 10px;
+}
+.currentOpenings .card_content > .card_text{
+  padding-top: 15px;
+  color: #454545;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.currentOpenings .card_content > .location{
+  color: #454545;
+}
+.currentOpenings .card_content > .Text_careers{
+  line-height: 25px;
+  color: #454545;
+  font-size: 1em;
+}
+
+.currentOpenings .card_content > button{
+  padding: 5px 10px;
+  background-color: #9875E4;
+  color: #fff;
+  border: none;
+}
+.currentOpenings .card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+
+.opnings_Items{
+  width: 100%;
+  background-color: #fff;
+
+}
+
+
+.wantstoKnow{
+  padding: 100px 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+
+
+.contact_detail{
+  width: 100%;
+  height: 200px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact_detail > div > h1{
+  font-family: font1bold;
+  font-size: 3.5vw;
+  color: var(--subText);
+
+}
+.contact_detail > div > h3{
+  font-family: font1regular;
+  /* font-size: 1.2vw; */
+  color: var(--text);
+}
+.contact_detail > button{
+  text-align: start;
+  padding: 10px 25px;
+  background: var(--brandColour);
+  font-family: extra;
+  color: #fff;
+  border: none;
+  font-size: 1.2vw;
+  font-weight: 700;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+  font-size: 1em !important;
+}
+.card_swipping .swiper-slide{
+  padding: 0 42px !important;
+}
+
+@media (max-width:1000px){
+  .career_header > h1 {
+    font-size: 4.5vw;
+  }
+  .target_head, .currentOpenings h1 {
+    
+    font-size: 3.5em;
+    padding-left: 35px;
+  }
+  .contact_detail > button{
+    font-size: 0.8em;
+  }
+}
+@media (max-width:500px){
+  .career_header > h1{
+    font-size: 2em;
+  }
+  .target_head{
+    width: 300px;
+    font-size: 2.5em;
+        padding-left: 25px;
+        padding-bottom: 45px;
+  }
+  .currentOpenings h1{
+    width: 300px;
+    font-size: 2.5em;
+        padding-left: 25px;
+        padding-bottom: 45px;
+  }
+  .contact_detail > div > h1{
+    font-size: 1.5em;
+  }
+  .alignment_career_contact{
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+}
+
+.target_CLM_text{
+  font-size: 2.5em !important;
+}
+
+@media(max-width:300px){
+  .target_CLM_text{
+    font-size: 2em !important;
+  }
+  .target_head{
+    font-size: 2em;
+  }
+  .currentOpenings h1{
+    font-size: 2em;
+  }
+
+}
