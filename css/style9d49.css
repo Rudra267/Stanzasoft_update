@@ -945,7 +945,7 @@ body.light-theme > #faq.container.fn_cs_faq.fn_cs_hero_slider > canvas{
 }
 
 body.light-theme .header:after{
-    background: var(--brandColour) !important; /* Light theme background */
+    /* background: var(--brandColour) !important; Light theme background */
     backdrop-filter: blur(20px);
 }
 /* body.light-theme .logo{

@@ -68,11 +68,11 @@ html,body{
     scrollbar-width: thin;
 }
 .page1 .integration_container .left_container > h3 > span{
- color: var(--highlightSubtext);
+ color: #0076C6;
 }
 
 .page1 .integration_container .left_container > p > span{
-  color: var(--highlightSubtext);
+  color: #0076C6;
  }
 
 
@@ -586,7 +586,7 @@ display: flex;
   /* text-align: justify; */
   font-family: GilL;
   font-weight: 700;
-  font-size: 1em;
+  /* font-size: 1em; */
   color: #000000a7;
 }
 
@@ -743,10 +743,10 @@ padding: 0 18px !important;
 
 
 .Why_StanzaForce > h1 >span{
-  color: var(--highlightSubtext);
+  color: #0076C6;
 }
 .Why_StanzaForce > p >span{
-  color: var(--highlightSubtext);
+  color: #0076C6;
 }
 
 
@@ -828,10 +828,10 @@ color: #000;
   color: #000;
 }
 .Why_CLM > h2 > span{
-  color: var(--highlightSubtext);
+  color: #0076C6;
 }
 .Why_CLM > h1 > span{
-  color: var(--highlightSubtext);
+  color: #0076C6;
 }
 
 .Why_CLM > p > span{
@@ -843,7 +843,7 @@ color: #000;
 
 }
 .CLM_cards > h2 > span{
-  color: var(--highlightSubtext);
+  color: #0076C6;
 }
 
 /* careerpage */
