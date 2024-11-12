@@ -119,6 +119,7 @@ body, p {
     --brandColour:linear-gradient(to left, rgb(184, 150, 255) 47px, rgb(0, 246, 255) 131.6px, rgb(0, 255, 240) 100%);
 --borderColour:rgb(184, 150, 255) 47px, rgb(0, 246, 255) 131.6px, rgb(0, 255, 240) 100%;
 --highlightSubtext:#00FFF0;
+--lightMode:linear-gradient(to left, rgb(132, 83, 210) 47px, rgb(0, 71, 255) 131.6px, rgb(0, 120, 194) 100%) !important;
     --mc1: #ddd;
     --mc2: #060606;
     --hc: #ddd;
