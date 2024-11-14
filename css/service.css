@@ -813,8 +813,11 @@ color: #000;
 }
 
 .timeline > div .items > p > img{
-  padding-right: 10px;
+  margin-right: 10px;
   width: 50px;
+  padding: 5px 5px;
+  background-color: #9875e47f;
+  border-radius: 50px;
 }
 
 .para{
