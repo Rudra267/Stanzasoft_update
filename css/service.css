@@ -803,6 +803,25 @@ color: #000;
   color: #000000de;
 }
 
+.heading{
+  /* font-family: font1regular !important; */
+  background: var(--lightMode) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  font-family: font1regular;
+  font-size: 2em;
+}
+
+.timeline > div .items > p > img{
+  padding-right: 10px;
+  width: 50px;
+}
+
+.para{
+  font-size: 1em !important;
+  font-weight: 600;
+}
+
 
 
 .timeline > div .items:nth-child(even) {
